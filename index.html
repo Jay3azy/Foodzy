@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodzy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header__top container">
+      <span>☰</span>
+      <nav class="nav">
+        <a class="nav__link" href="#">Home</a>
+        <a class="nav__link" href="#">Category ▾</a>
+        <a class="nav__link" href="#">Products ▾</a>
+        <a class="nav__link" href="#">Pages ▾</a>
+        <a class="nav__link" href="#">Blog ▾</a>
+        <a class="nav__link" href="#">Elements ▾</a>
+      </nav>
+      <span>☏ +123 ( 456 ) ( 7890 )</span>
+    </div>
+
+    <div class="header__main container">
+      <div class="logo">
+        <img class="logo__img" src="imagenes/logo.png" alt="Foodzy">
+        <div>
+          <p class="logo__name">Foodzy</p>
+          <p class="logo__tagline">A Treasure of Tastes</p>
+        </div>
+      </div>
+
+      <div class="search">
+        <input class="search__input" type="text" placeholder="Search For items...">
+        <button class="search__btn">⌕</button>
+      </div>
+
+      <div class="header__actions">
+        <a href="#">👤 Account</a>
+        <a href="#">♡ Wishlist</a>
+        <a href="#">🛒 Cart</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section class="banner">
+    <div class="banner__content container">
+      <h1 class="banner__title">Shop</h1>
+      <p>Home - Shop</p>
+    </div>
+  </section>
+
+  <!-- SHOP: sidebar + productos -->
+  <main class="shop container">
+
+    <!-- SIDEBAR -->
+    <aside>
+      <p class="shop__label">Section</p>
+      <div class="sidebar">
+        <h3 class="sidebar__title">Product Category</h3>
+        <label class="sidebar__item"><span><input type="checkbox"> Juice &amp; Drinks</span> [20]</label>
+        <label class="sidebar__item"><span><input type="checkbox"> Dairy &amp; Milk</span> [54]</label>
+        <label class="sidebar__item"><span><input type="checkbox"> Snack &amp; Spice</span> [64]</label>
+
+        <h3 class="sidebar__title">Filter By Price</h3>
+        <input type="range">
+        <p><b>Price:</b> $20 - $250</p>
+        <button class="sidebar__btn">Filter</button>
+
+        <h3 class="sidebar__title">Product Category</h3>
+        <label class="sidebar__item"><span><input type="checkbox"> Blue</span> <span class="sidebar__color sidebar__color--blue"></span></label>
+        <label class="sidebar__item"><span><input type="checkbox"> Yellow</span> <span class="sidebar__color sidebar__color--yellow"></span></label>
+        <label class="sidebar__item"><span><input type="checkbox"> Red</span> <span class="sidebar__color sidebar__color--red"></span></label>
+
+        <h3 class="sidebar__title">Weight</h3>
+        <label class="sidebar__item"><span><input type="checkbox"> 2kg Pack</span></label>
+        <label class="sidebar__item"><span><input type="checkbox"> 20kg Pack</span></label>
+        <label class="sidebar__item"><span><input type="checkbox"> 30kg Pack</span></label>
+
+        <h3 class="sidebar__title">Products Tages</h3>
+        <div class="tags">
+          <a class="tags__item" href="#">Vegetables</a>
+          <a class="tags__item" href="#">Juice</a>
+          <a class="tags__item" href="#">Food</a>
+          <a class="tags__item" href="#">Dry Fruits</a>
+          <a class="tags__item" href="#">Vegetables</a>
+          <a class="tags__item" href="#">Juice</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- PRODUCTOS -->
+    <section>
+      <p class="shop__label">Section</p>
+      <div class="toolbar">
+        <p>We found 29 items for you!</p>
+        <p>Sort By : Featured ▾</p>
+      </div>
+
+      <div class="products">
+        
+        
+        <div class="card">
+          <img class="card__img" src="imagenes/p1.png" alt="">
+          <div>
+            
+            <p class="card__category">Vegetables</p>
+            <p class="card__stars">★★★★☆ (4.5)</p>
+            <h3 class="card__title">Fresh organic villa farm lomon 500gm pack</h3>
+            <span class="card__price">$120.25</span>
+            <span class="card__price card__price--old">$123.25</span>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p2.png" alt="">
+          <div>
+            <p class="card__category">Snacks</p>
+            <p class="card__stars">★★★★★ (5.0)</p>
+            <h3 class="card__title">Best snakes with hazel nut pack 200gm</h3>
+            <span class="card__price">$145</span>
+            <span class="card__price card__price--old">$150</span>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p3.png" alt="">
+          <p class="card__category">Fruits</p>
+          <p class="card__stars">★★★★☆ (4.5)</p>
+          <h3 class="card__title">Fresh organic apple 1kg simla marming</h3>
+          <span class="card__price">$120.25</span>
+          <span class="card__price card__price--old">$123.25</span>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p4.png" alt="">
+          <p class="card__category">Fruits</p>
+          <p class="card__stars">★★★☆☆ (3.2)</p>
+          <h3 class="card__title">Organic fresh venila farm watermelon 5kg</h3>
+          <span class="card__price">$50.30</span>
+          <span class="card__price card__price--old">$72.60</span>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p5.png" alt="">
+          <p class="card__category">Snacks</p>
+          <span class="card__category">Fritos</span>
+          <span class="card__stars">★★★★ (4.0)</span>
+          <span class="card__stars card__stars--old">★★★★★ (5.0)</span>
+          <h3 class="card__title">Sweet crunchy nut mix 250gm pack</h3>
+          <span class="card__price">$120.25</span>
+          <span class="card__price card__price--old">$123.25</span>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p6.png" alt="">
+          <p class="card__category">Bakery</p>
+          <p class="card__stars">★★★★★ (5.0)</p>
+          <h3 class="card__title">Delicious white baked fresh bread and toast</h3>
+          <span class="card__price">$20</span>
+          <span class="card__price card__price--old">$22.10</span>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p7.png" alt="">
+          <p class="card__category">Bakery</p>
+          <p class="card__stars">★★★★★ (5.0)</p>
+          <h3 class="card__title">Delicious white baked fresh bread and toast</h3>
+          <span class="card__price">$20</span>
+          <span class="card__price card__price--old">$22.10</span>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p8.png" alt="">
+          <p class="card__category">Bakery</p>
+          <p class="card__stars">★★★★★ (5.0)</p>
+          <h3 class="card__title">Delicious white baked fresh bread and toast</h3>
+          <span class="card__price">$20</span>
+          <span class="card__price card__price--old">$22.10</span>
+        </div>
+        <div class="card">
+          <img class="card__img" src="imagenes/p9.png" alt="">
+          <p class="card__category">Bakery</p>
+          <p class="card__stars">★★★★★ (5.0)</p>
+          <h3 class="card__title">Delicious white baked fresh bread and toast</h3>
+          <span class="card__price">$20</span>
+          <span class="card__price card__price--old">$22.10</span>
+        </div>
+      </div>
+
+      <div class="pagination">
+        <a class="pagination__link" href="#">Previous</a>
+        <a class="pagination__link pagination__link--active" href="#">1</a>
+        <a class="pagination__link" href="#">2</a>
+        <a class="pagination__link" href="#">3</a>
+        <a class="pagination__link" href="#">Next</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__grid container">
+      <div>
+        <div class="logo">
+          <img class="logo__img" src="imagenes/logo.png" alt="Foodzy">
+          <div>
+            <p class="logo__name">Foodzy</p>
+            <p class="logo__tagline">A Treasure of Tastes</p>
+          </div>
+        </div>
+        <p class="footer__text">FoodTrove is the biggest market of grocery products. Get your daily needs from our store.</p>
+        <p class="footer__text">📍 51 Green St.Huntington ohaio beach ontario, NY 11746 KY 4783, USA.<br>✉ example@email.com<br>☏ +91 123 4567890</p>
+      </div>
+
+      <div>
+        <h4 class="footer__title">Company</h4>
+        <a class="footer__link" href="#">About Us</a>
+        <a class="footer__link" href="#">Delivery Information</a>
+        <a class="footer__link" href="#">Privacy Policy</a>
+        <a class="footer__link" href="#">Terms &amp; Conditions</a>
+        <a class="footer__link" href="#">contact Us</a>
+        <a class="footer__link" href="#">Support Center</a>
+      </div>
+
+      <div>
+        <h4 class="footer__title">Category</h4>
+        <a class="footer__link" href="#">Dairy &amp; Bakery</a>
+        <a class="footer__link" href="#">Fruits &amp; Vegetable</a>
+        <a class="footer__link" href="#">Snack &amp; Spice</a>
+        <a class="footer__link" href="#">Juice &amp; Drinks</a>
+        <a class="footer__link" href="#">Chicken &amp; Meat</a>
+        <a class="footer__link" href="#">Fast Food</a>
+      </div>
+
+      <div>
+        <h4 class="footer__title">Subscribe Our Newsletter</h4>
+        <input class="footer__input" type="email" placeholder="Search here...">
+        <div class="footer__gallery">
+          <img src="imagenes/g1.png" alt="">
+          <img src="imagenes/g2.png" alt="">
+          <img src="imagenes/g3.png" alt="">
+          <img src="imagenes/g4.png" alt="">
+          <img src="imagenes/g5.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">© 2025 <span>foodzy</span>, All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
